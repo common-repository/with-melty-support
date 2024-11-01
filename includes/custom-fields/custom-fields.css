@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* 
+custom-fields css
+*/
+#cf_updated_index{
+	overflow:hidden;
+}
+#cf_updated_index li{
+	float:left;
+	margin:5px;
+}
+#cf_updated_box{
+	border-bottom:1px dashed #dfdfdf;
+	padding-bottom:15px;
+}
+.cnt_key, .cnt_txt{
+	margin-left:5px;
+}
+#custom_fields input{
+	margin-right:5px;
+}
+#custom_fields pre{
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+	padding:4px; //padding:3px + border:1px
+}
+#custom_fields textarea{
+	margin:11px 0px 6px;
+	width:100%;
+	overflow:hidden;
+	word-break:break-all;
+}
+#custom_fields .cf-field{
+	margin-bottom:15px;
+}
+#custom_fields .cf-field a{
+	float:right;
+	margin-right:10px;
+}

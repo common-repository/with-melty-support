@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* 
+all-posts css
+*/
+#tabcontent #all-post-list .postlist,
+#tabcontent #all-post-list .postlist-num{
+	display:block;
+	margin:3px;
+}
+#tabcontent #all-post-list .ap_taxonomies,
+#tabcontent #all-post-list .ap_menu{
+	display:block;
+}
+#tabcontent #all-post-list .showlist,
+#tabcontent #all-post-list .showlist .showlist_display,
+#tabcontent #all-post-list .showlist .showlist_sort,
+#tabcontent #all-post-list .showlist .showlist_area{
+	display:block;
+}
+#tabcontent #all-post-list .showlist .showlist_display,
+#tabcontent #all-post-list .showlist .showlist_sort,
+#tabcontent #all-post-list .showlist .showlist_area{
+	margin:1em 0;
+}

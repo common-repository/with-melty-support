@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 
+wp-melty-support css
+*/
+#tabnavi{
+	margin:9px 0 -1px;
+	overflow:hidden;
+}
+#tabnavi li{
+	float:left;
+	margin-top:5px;
+}
+#tabnavi li a{
+	padding:6px 8px 8px;
+	margin-left:4px;
+
+	border-radius:5px 5px 0 0;
+	border:1px dashed #dfdfdf;
+	border-bottom:none;
+	outline:none;
+
+}
+#tabnavi li a:hover,
+#tabnavi li a.active{
+	border:1px dashed #dfdfdf;
+	border-bottom:none;
+	background:none;
+	background:#fefefe;
+
+}
+#tabnavi li a[href="#upgrade"],
+#tabnavi li a[href="#favor"]{
+	color:#f00000;
+}
+#tabnavi li a[href="#upgrade"]:hover,
+#tabnavi li a[href="#favor"]:hover{
+	color:#ff0000;
+}
+#tabcontent{
+	padding:10px;
+	border:1px dashed #dfdfdf;
+	border-radius:5px;
+	background:#fefefe;
+	word-wrap:break-word;
+}
+#tabcontent a{
+	outline:none;
+}
+
+#tabcontent button{
+	filter: alpha(opacity=80);
+	-moz-opacity:0.8;
+	opacity:0.8;
+}
+#tabcontent .wmstabnavi li a:hover,
+#tabcontent .wmstabnavi li a.active{
+	border-bottom:1px dashed;
+	text-decoration: none;
+}

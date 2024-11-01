@@ -1,0 +1,3 @@
+post,page
+ID,post_name,post_title,post_date,post_modified,post_status,taxonomies
+term_id,slug,name,count

@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* 
+control css
+*/
+#all_control .area{
+	word-wrap:break-word;
+}
+#all_control>div:last-child{
+	border-bottom:none;
+}
+#all_control>ul{
+	overflow:hidden;
+}
+#all_control>ul li{
+	float:left;
+	margin:5px;
+}
+#all_control .to-top{
+	text-align:right;
+	border-top:1px dashed #dfdfdf;
+	padding-top:7px;
+}
+
+#all_posts_control ul{
+	overflow:hidden;
+}
+#all_posts_control ul div{
+	float:left;
+}
+#all_posts_control input{
+	margin-right:5px;
+}
+#all_posts_control label,
+#all_posts_control .all-control-uncheck{
+	display:block;
+	padding-right:10px;
+}
+#all_posts_control ul+button{
+	margin-bottom:18px;
+}
+#all_posts_control .display-change{
+	display:inline;
+}
